@@ -22,8 +22,8 @@ Pisać z dużej litery.
 3. Nie tłumacz słów takich jak : 
 	1. Placeholder
 	2. Endpoint
-  3. frontmatter
-  4. prop
+  	3. frontmatter
+  	4. prop
 5. W kontekście słowa Astro stosuj Zaimek w funkcji podmiotu w formie **("ono", używanego dla przedmiotów, zwierząt lub pojęć)**
 6. Tłumacz następujące wyrazy: 
     1. Template na "szablon"
