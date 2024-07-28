@@ -36,44 +36,38 @@ Jeżeli znajdziesz link do strony w stylu:
 
 Oto tekst do przetłumaczenia:
 
-# Tworzenie PR
+## Tworzenie PR
 
 Zadanie: Przygotuj informacje do utworzenia Pull Request (PR) dla tłumaczenia dokumentacji na język polski.
-
 Instrukcje:
-
-1. Tytuł PR:
-   Format: "i18n(pl) <nazwa tłumaczenia> [<nazwa-pliku>]"
+1. Tytuł PR: Format: "i18n(pl) <nazwa tłumaczenia> [<nazwa_pliku>]" 
    Przykład: "i18n(pl) Astro Islands [islands.mdx]"
 
-2. Opis PR:
-   Użyj następującego szablonu:
+2. Opis PR: Użyj następującego szablonu:
 
+   ```
    #### Description (required)
-   Updates the Polish translation of [<nazwa tłumaczenia>](Link) :  
+   Updates the Polish translation of [<nazwa tłumaczenia>](<link do oryginalnej dokumentacji>) :
    <Ścieżka Pliku>
-
    #### Related issues & labels (optional)
-   Suggested label: i18n
+   - Suggested label: i18n
+   ```
 
 3. Przykład opisu PR:
+   ```
    #### Description (required)
-   Updates the Polish translation of [Astro Islands](https://docs.astro.build/en/concepts/islands/) :  
+   Updates the Polish translation of [Astro Islands](https://docs.astro.build/en/concepts/islands/) :
    docs/src/content/docs/pl/concepts/islands.mdx
-
    #### Related issues & labels (optional)
-   Suggested label: i18n
+   - Suggested label: i18n
+   ```
 
 Proszę przygotować informacje do PR dla następującego tłumaczenia:
-
-1. Nazwa tłumaczenia: <podaj nazwę tłumaczenia>
-2. Nazwa pliku: <podaj nazwę pliku>
-3. Ścieżka pliku: <podaj ścieżkę pliku>
-4. Link do oryginalnej dokumentacji: <podaj link>
-
+1. Nazwa tłumaczenia: **Pages**
+2. Nazwa pliku: astro-pages.mdx
+3. Ścieżka pliku:  docs/src/content/docs/pl/basics/astro-pages.mdx
+4. Link do oryginalnej dokumentacji: https://docs.astro.build/pl/basics/astro-pages/
 Przygotuj tytuł PR i opis zgodnie z powyższymi instrukcjami.
-
-
 
 
 ### Extra prompty
